@@ -7,9 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario Gama Academy</title>
     <!-- criando estilos no form -->
-    <style>
-
-    </style>
+    <link rel="stylesheet" href="style.css">
     <!-- criando um biblioteca de funcoes no JS para validar nosso form -->
     <script>
         function valida_campos() {
@@ -50,6 +48,7 @@
 </head>
 
 <body>
+    <h1>Formulario de cadastro</h1>
     <!-- Criando um fomulario para cadastro de informaçoes de usuario -->
     <form id="cadastro" method="get">
         <!-- criando uma caixa para guardar todos os campos criados na estrutura do formulario -->
@@ -70,10 +69,10 @@
             <label>Senha da conta:</label>
             <input type="password" name="senha_cliente" placeholder="Digite sua senha"><br><br>
             <label>Repita a senha:</label>
-            <input type="password" placeholder="digite senha igual a anterior" name="confirma_senha"><br><br>
+            <input type="password" placeholder="Digite senha igual a anterior" name="confirma_senha"><br><br>
 
             <!-- criando um botao pra enviar os campos preenchidos -->
-            <input type="submit" value="Enviar" onclick="return valida_campos()">
+            <input type="submit" id="enviar" value="Enviar" onclick="return valida_campos()">
 
         </fieldset>
     </form>

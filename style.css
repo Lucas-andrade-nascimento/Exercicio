@@ -1,0 +1,38 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-weight: 600;
+    text-align: center;
+}
+form {
+    background-color: rgb(169, 209, 245);
+
+}
+
+legend {
+    margin-bottom: 15px;;
+}
+label {
+
+    font-weight: 600;
+
+}
+#enviar {
+    
+    padding: 5px 10px;
+    background: linear-gradient(to right, rgb(116, 109, 109) 50%,  #ffff 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: #464646;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 250ms ease-out;
+    border-radius: 5px;
+    margin-left: -4px;
+}
+#enviar:hover {
+    background-position: left bottom;
+    color: rgb(245, 238, 238);
+}
